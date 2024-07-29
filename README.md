@@ -86,10 +86,3 @@ The API is documented using Swagger. To view the Swagger UI and test the endpoin
 
 You should see the Swagger UI with the available API endpoints. You can use the UI to test the API by sending requests and viewing the responses.
 
-## Contributing
-
-If you would like to contribute to this project, please fork the repository and create a pull request with your changes. Make sure to update the documentation and include tests for any new features.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
