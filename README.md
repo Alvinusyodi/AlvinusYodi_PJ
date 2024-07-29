@@ -1,6 +1,6 @@
 # Todo List Project
 
-This is a simple Todo List application built using Node.js, Express, Sequelize, MySQL, and WebSocket. The application allows users to create, read, update, and delete todos, and uses WebSocket to broadcast updates to all connected clients.
+Ini adalah aplikasi Daftar Tugas sederhana yang dibangun menggunakan Node.js, Express, Sequelize, MySQL, dan WebSocket. Aplikasi ini memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus tugas, serta menggunakan WebSocket untuk menyiarkan pembaruan ke semua klien yang terhubung.
 
 ## Table of Contents
 
@@ -10,14 +10,12 @@ This is a simple Todo List application built using Node.js, Express, Sequelize, 
 - [API Endpoints](#api-endpoints)
 - [WebSocket](#websocket)
 - [Swagger Documentation](#swagger-documentation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
-- Create, read, update, and delete todos.
-- Real-time updates using WebSocket.
-- API documentation with Swagger.
+- Membuat, membaca, memperbarui, dan menghapus tugas.
+- Pembaruan secara real-time menggunakan WebSocket.
+- Dokumentasi API dengan Swagger.
 
 ## Installation
 
@@ -50,39 +48,39 @@ This is a simple Todo List application built using Node.js, Express, Sequelize, 
 
 ## Usage
 
-- Open `http://localhost:3000` in your browser to use the Todo List application.
-- Use the input field to add new todos.
-- Click on a todo to mark it as completed.
-- Use the delete button to remove a todo.
+- Buka `http://localhost:3000` di browser Anda untuk menggunakan aplikasi Daftar Tugas.
+- Gunakan bidang input untuk menambahkan tugas baru.
+- Klik pada tugas untuk menandainya sebagai selesai.
+- Gunakan tombol hapus untuk menghapus tugas.
 
 ## API Endpoints
 
 ### GET /api/todos
-Retrieve a list of all todos.
+Mengambil daftar semua tugas.
 
 ### POST /api/todos
-Create a new todo.
+Membuat tugas baru.
 
 ### PUT /api/todos/{id}
-Update an existing todo.
+Memperbarui tugas yang ada.
 
 ### DELETE /api/todos/{id}
-Delete a todo.
+Menghapus tugas.
 
 ## WebSocket
 
-The application uses WebSocket to broadcast updates to all connected clients. When a todo is created, updated, or deleted, all connected clients receive a message to update their todo lists.
+Aplikasi ini menggunakan WebSocket untuk menyiarkan pembaruan ke semua klien yang terhubung. Ketika sebuah tugas dibuat, diperbarui, atau dihapus, semua klien yang terhubung akan menerima pesan untuk memperbarui daftar tugas mereka.
 
 ## Swagger Documentation
 
-The API is documented using Swagger. To view the Swagger UI and test the endpoints, follow these steps:
+API didokumentasikan menggunakan Swagger. Untuk melihat UI Swagger dan menguji endpoint, ikuti langkah-langkah berikut:
 
 1. **Start the server:**
     ```bash
-    npm start
+    node server.js
     ```
 
 2. **Open your browser and navigate to** `http://localhost:3000/api-docs`.
 
-You should see the Swagger UI with the available API endpoints. You can use the UI to test the API by sending requests and viewing the responses.
+Anda akan melihat UI Swagger dengan endpoint API yang tersedia. Anda dapat menggunakan UI ini untuk menguji API dengan mengirimkan permintaan dan melihat respons.
 
