@@ -136,3 +136,26 @@ const broadcastUpdate = () => {
 };
 
 sequelize.sync();
+
+// Swagger schema definition
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Todo:
+ *       type: object
+ *       properties:
+ *         id:
+ *           type: integer
+ *           description: The auto-generated id of the todo item
+ *         title:
+ *           type: string
+ *           description: The title of the todo item
+ *         completed:
+ *           type: boolean
+ *           description: The status of the todo item
+ *       example:
+ *         id: 1
+ *         title: Buy groceries
+ *         completed: false
+ */
